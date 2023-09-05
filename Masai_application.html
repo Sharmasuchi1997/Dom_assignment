@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <title>Application</title>
 </head>
@@ -17,12 +17,20 @@
 </body>
 </html>
 <script>
-    let print_text=document.getElementById("display")
+    let inputTag=document.getElementById("name")
+    let selectTag=document.getElementById("gender")
+    let headtag=document.getElementById("display")
     
     function apply_button()
     {
-        print_text.innerText="Suchitra Sharma"
-        console.log(print_text.innerText)
+       console.log(inputTag.value) 
+      //  console.log(inputTag.value) 
+
+        // console.log(print_text.innerText)
+        // headtag.innerText="inputTag.value"
+        // headtag.innerText=selectTag.value
+    
+
     }
 
 </script>
