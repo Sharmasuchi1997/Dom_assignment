@@ -13,24 +13,20 @@
     <option value="Male">Male</option>
     <option value="Female">Female</option>
   </select>
-  <button onlick="apply_button()">Apply</button>
+  <button onclick="apply_button()">Apply</button>
 </body>
 </html>
 <script>
-    let inputTag=document.getElementById("name")
-    let selectTag=document.getElementById("gender")
-    let headtag=document.getElementById("display")
+    // let inputTag=document.getElementById("name")
+    // let selectTag=document.getElementById("gender")
+    // let headtag=document.getElementById("display")
     
     function apply_button()
     {
-       console.log(inputTag.value) 
-      //  console.log(inputTag.value) 
-
-        // console.log(print_text.innerText)
-        // headtag.innerText="inputTag.value"
-        // headtag.innerText=selectTag.value
-    
-
+      let head2=document.getElementById("display")
+      let Input=document.getElementById("name").value
+      let Select=document.getElementById("gender").value
+      head2.innerText=Input+" "+Select
     }
 
 </script>
